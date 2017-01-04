@@ -13,9 +13,21 @@
 		764E56E41E19B5AC0010B83A /* SwiftPayPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 764E56E21E19B5AC0010B83A /* SwiftPayPal.xcdatamodeld */; };
 		764E56E61E19B5AC0010B83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764E56E51E19B5AC0010B83A /* Assets.xcassets */; };
 		764E56E91E19B5AC0010B83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764E56E71E19B5AC0010B83A /* LaunchScreen.storyboard */; };
+		764E56F11E19BA550010B83A /* acknowledgments.md in Sources */ = {isa = PBXBuildFile; fileRef = 764E56F01E19BA550010B83A /* acknowledgments.md */; };
+		764E56FF1E19CA590010B83A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56F61E19CA590010B83A /* Accelerate.framework */; };
+		764E57001E19CA590010B83A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56F71E19CA590010B83A /* AudioToolbox.framework */; };
+		764E57011E19CA590010B83A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56F81E19CA590010B83A /* AVFoundation.framework */; };
+		764E57021E19CA590010B83A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56F91E19CA590010B83A /* CoreLocation.framework */; };
+		764E57031E19CA590010B83A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56FA1E19CA590010B83A /* CoreMedia.framework */; };
+		764E57041E19CA590010B83A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56FB1E19CA590010B83A /* MessageUI.framework */; };
+		764E57051E19CA590010B83A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56FC1E19CA590010B83A /* MobileCoreServices.framework */; };
+		764E57061E19CA590010B83A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56FD1E19CA590010B83A /* SafariServices.framework */; };
+		764E57071E19CA590010B83A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764E56FE1E19CA590010B83A /* SystemConfiguration.framework */; };
+		E3DB73CF1B008F8A4229AA9D /* Pods_SwiftPayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F18493E132DDD35A6715CF /* Pods_SwiftPayPal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20BDCB754C86354A4020E2A4 /* Pods-SwiftPayPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPayPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPayPal/Pods-SwiftPayPal.release.xcconfig"; sourceTree = "<group>"; };
 		764E56D81E19B5AC0010B83A /* SwiftPayPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPayPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764E56DB1E19B5AC0010B83A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764E56DD1E19B5AC0010B83A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,20 @@
 		764E56E51E19B5AC0010B83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		764E56E81E19B5AC0010B83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		764E56EA1E19B5AC0010B83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764E56F01E19BA550010B83A /* acknowledgments.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = acknowledgments.md; sourceTree = "<group>"; };
+		764E56F21E19C6270010B83A /* SwiftPayPal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPayPal-Bridging-Header.h"; sourceTree = "<group>"; };
+		764E56F51E19C7100010B83A /* ZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		764E56F61E19CA590010B83A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		764E56F71E19CA590010B83A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		764E56F81E19CA590010B83A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		764E56F91E19CA590010B83A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		764E56FA1E19CA590010B83A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		764E56FB1E19CA590010B83A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		764E56FC1E19CA590010B83A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		764E56FD1E19CA590010B83A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		764E56FE1E19CA590010B83A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77F18493E132DDD35A6715CF /* Pods_SwiftPayPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPayPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9666946A547D64E14056B640 /* Pods-SwiftPayPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPayPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPayPal/Pods-SwiftPayPal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764E56FF1E19CA590010B83A /* Accelerate.framework in Frameworks */,
+				764E57001E19CA590010B83A /* AudioToolbox.framework in Frameworks */,
+				764E57011E19CA590010B83A /* AVFoundation.framework in Frameworks */,
+				764E57021E19CA590010B83A /* CoreLocation.framework in Frameworks */,
+				764E57031E19CA590010B83A /* CoreMedia.framework in Frameworks */,
+				764E57041E19CA590010B83A /* MessageUI.framework in Frameworks */,
+				764E57051E19CA590010B83A /* MobileCoreServices.framework in Frameworks */,
+				764E57061E19CA590010B83A /* SafariServices.framework in Frameworks */,
+				764E57071E19CA590010B83A /* SystemConfiguration.framework in Frameworks */,
+				E3DB73CF1B008F8A4229AA9D /* Pods_SwiftPayPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160630E15C4821FA006396DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9666946A547D64E14056B640 /* Pods-SwiftPayPal.debug.xcconfig */,
+				20BDCB754C86354A4020E2A4 /* Pods-SwiftPayPal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F7C3830B24C52C67DC45A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				764E56F61E19CA590010B83A /* Accelerate.framework */,
+				764E56F71E19CA590010B83A /* AudioToolbox.framework */,
+				764E56F81E19CA590010B83A /* AVFoundation.framework */,
+				764E56F91E19CA590010B83A /* CoreLocation.framework */,
+				764E56FA1E19CA590010B83A /* CoreMedia.framework */,
+				764E56FB1E19CA590010B83A /* MessageUI.framework */,
+				764E56FC1E19CA590010B83A /* MobileCoreServices.framework */,
+				764E56FD1E19CA590010B83A /* SafariServices.framework */,
+				764E56FE1E19CA590010B83A /* SystemConfiguration.framework */,
+				77F18493E132DDD35A6715CF /* Pods_SwiftPayPal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		764E56CF1E19B5AB0010B83A = {
 			isa = PBXGroup;
 			children = (
+				764E56F01E19BA550010B83A /* acknowledgments.md */,
 				764E56DA1E19B5AC0010B83A /* SwiftPayPal */,
 				764E56D91E19B5AC0010B83A /* Products */,
+				160630E15C4821FA006396DE /* Pods */,
+				1F7C3830B24C52C67DC45A58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +128,8 @@
 				764E56E71E19B5AC0010B83A /* LaunchScreen.storyboard */,
 				764E56EA1E19B5AC0010B83A /* Info.plist */,
 				764E56E21E19B5AC0010B83A /* SwiftPayPal.xcdatamodeld */,
+				764E56F21E19C6270010B83A /* SwiftPayPal-Bridging-Header.h */,
+				764E56F51E19C7100010B83A /* ZZAppDelegate.h */,
 			);
 			path = SwiftPayPal;
 			sourceTree = "<group>";
@@ -74,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764E56ED1E19B5AC0010B83A /* Build configuration list for PBXNativeTarget "SwiftPayPal" */;
 			buildPhases = (
+				0A1334424704C5BB2601983E /* [CP] Check Pods Manifest.lock */,
 				764E56D41E19B5AC0010B83A /* Sources */,
 				764E56D51E19B5AC0010B83A /* Frameworks */,
 				764E56D61E19B5AC0010B83A /* Resources */,
+				6C00AB4507065FF69CF7428C /* [CP] Embed Pods Frameworks */,
+				50368ED207FA935DC01F303B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +204,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A1334424704C5BB2601983E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50368ED207FA935DC01F303B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPayPal/Pods-SwiftPayPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C00AB4507065FF69CF7428C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPayPal/Pods-SwiftPayPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		764E56D41E19B5AC0010B83A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +260,7 @@
 				764E56E41E19B5AC0010B83A /* SwiftPayPal.xcdatamodeld in Sources */,
 				764E56DE1E19B5AC0010B83A /* ViewController.swift in Sources */,
 				764E56DC1E19B5AC0010B83A /* AppDelegate.swift in Sources */,
+				764E56F11E19BA550010B83A /* acknowledgments.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,23 +371,30 @@
 		};
 		764E56EE1E19B5AC0010B83A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9666946A547D64E14056B640 /* Pods-SwiftPayPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftPayPal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.peta.SwiftPayPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPayPal/SwiftPayPal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		764E56EF1E19B5AC0010B83A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BDCB754C86354A4020E2A4 /* Pods-SwiftPayPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftPayPal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.peta.SwiftPayPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPayPal/SwiftPayPal-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -291,6 +417,7 @@
 				764E56EF1E19B5AC0010B83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
